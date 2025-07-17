@@ -44,9 +44,7 @@ print(srt1.replace("a","b"))
 print('#'.join(srt1))
 print(srt1.split("a"))
 
-
-
-
+print("#-List")
 print("#-List")
 #append,insert,index,remove,sort,reverse,pop,slices,extend
 list1=[1,2,3,4,5] # මුලින්ම list1 නමින් list එකක් සාදනවා
