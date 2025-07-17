@@ -43,7 +43,7 @@ print(srt1.find("a"))
 print(srt1.replace("a","b"))
 print('#'.join(srt1))
 print(srt1.split("a"))
-
+print("#-List1")
 print("#-List")
 print("#-List")
 #append,insert,index,remove,sort,reverse,pop,slices,extend
