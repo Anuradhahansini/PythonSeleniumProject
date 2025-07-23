@@ -47,79 +47,25 @@ print("#-List1")
 print("#-List")
 print("#-List")
 #append,insert,index,remove,sort,reverse,pop,slices,extend
-list1=[1,2,3,4,5] # මුලින්ම list1 නමින් list එකක් සාදනවා
+list1=[1,2,3,4,5]# මුලින්ම list1 නමින් list එකක් සාදනවා
+list2=[1,2,3,4,5]
 print(len(list1))
 list1.append(6) #append() method එකෙන් කරන්නේ list එකේ අගටම අලුත් අගයක් එකතු කරන එකයි.
 print(list1)
-list1.insert(2,3)  #insert(2, 3) කිරීම: අවසානයේ, list1.insert(2, 3) ක්‍රියාත්මක වෙනවා. insert() method එක වැඩ කරන්නේ මෙහෙමයි: list.insert(index, object).
-
-මෙයින් object එක (එනම්, අංක 3), ලබා දී ඇති index එකට (එනම්, ස්ථාන අංක 2 ට) ඇතුළත් කරනවා.
-
-එම ස්ථානයේ (index 2 හි) තිබූ අගය සහ ඉන් පසුව තිබූ සියලුම අගයන් එක ස්ථානයක් දකුණට යනවා.
-
-Insert කිරීමට පෙර List එක: [1, 2, 3, 4, 5, 6]
-
-Insert කළ පසු List එක: [1, 2, **3**, 3, 4, 5, 6]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-print(list1)
+list1.insert(2,3)  #insert(2, 3) කිරීම: අවසානයේ, list1.insert(2, 3) ක්‍රියාත්මක වෙනවා. insert() method එක වැඩ කරන්නේ මෙහෙමයි: list.insert(index, object).මෙයින් object එක (එනම්, අංක 3), ලබා දී ඇති index එකට (එනම්, ස්ථාන අංක 2 ට) ඇතුළත් කරනවා.එම ස්ථානයේ (index 2 හි) තිබූ අගය සහ ඉන් පසුව තිබූ සියලුම අගයන් එක ස්ථානයක් දකුණට යනවා.Insert කිරීමට පෙර List එක: [1, 2, 3, 4, 5, 6] Insert කළ පසු List එක: [1, 2, **3**, 3, 4, 5, 6]
 print(list1.index(4))
+list1.remove(4) #delete select number
+print(list1)
+list1.sort() #assending order
+print(list1)
+
+list1.pop() #last element remove
+print(list1)
+
+print(list1[3:4]) #Slices
+
+list2.extend(list1) #both element get in the one line 
+print(list2)
 
 
 print("#-Tuple")
