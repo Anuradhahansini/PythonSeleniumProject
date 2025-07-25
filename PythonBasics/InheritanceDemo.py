@@ -48,3 +48,5 @@ obj2 = DEV("Developer", "Kumar", 2)
 # Now getdetails() is available because DEV inherits from Employee
 obj2.getdetails()
 obj2.getdept()
+
+###Class (කම්හල): සෙල්ලම් බඩු හදන සැලැස්ම හෝ කම්හල. Object (සෙල්ලම් බඩුව): ඒ සැලැස්මෙන් හදන ඇත්ත සෙල්ලම් බඩුව. Parent Class (ලොකු තාත්තාගේ කම්හල): හැමෝටම පොදු දේවල් හදන ප්‍රධාන කම්හල.Child Class (පොඩි පුතාගේ/දුවගේ කම්හල): ලොකු තාත්තාගෙන් ඉගෙනගෙන, තමන්ටම ආවේණික අලුත් දේවලුත් එකතු කරලා සෙල්ලම් බඩු හදන පොඩි කම්හල්.###
